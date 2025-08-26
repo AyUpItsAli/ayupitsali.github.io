@@ -73,12 +73,12 @@ nav a.selected {
     text-underline-offset: 5px;
 }
 
-header a.game-panel {
+header a.server-panel {
     padding: 16px 28px;
     font-weight: 700;
     font-size: 20px;
     color: var(--tertiary-color);
-    background-color: #0867d3;
+    background-color: #2164f0;
     border: none;
     border-radius: 500px;
     text-decoration: none;
@@ -91,8 +91,8 @@ main {
 }
 
 iframe.app {
-    margin: 0px 60px;
     flex-grow: 1;
+    margin: 0 5%;
     border: none;
     border-radius: 20px;
 }
