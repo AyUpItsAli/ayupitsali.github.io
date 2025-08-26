@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #ed0c39;
+    --secondary-color: black;
+    --tertiary-color: white;
+    --tertiary-shadow-color: #e4e4e4;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+    font-size: 1em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--tertiary-color);
+    box-shadow: 10px 10px 10px var(--tertiary-shadow-color);
+    border: solid 2px var(--tertiary-shadow-color);
+    border-radius: 500px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--secondary-color);
+}
+
+.logo img {
+    max-height: 60px;
+    max-width: 60px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+nav a.home {
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+header a.contact {
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 500px;
+    text-decoration: none;
+}
